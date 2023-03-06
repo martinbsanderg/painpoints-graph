@@ -1,0 +1,86 @@
+[
+  {
+    "label": "Wasting time",
+    "id": "C1",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Wasting time" }
+  },
+  {
+    "label": "Reduced analysis quality",
+    "id": "C2",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Reduced analysis quality" }
+  },
+  {
+    "label": "Some searches are dropped ",
+    "id": "C3",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Some searches are dropped " }
+  },
+  {
+    "label": "Cumbersome workarounds",
+    "id": "C4",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Cumbersome workarounds" }
+  },
+  {
+    "label": "Frustrating",
+    "id": "C5",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Frustrating" }
+  },
+  {
+    "label": "Fatigue",
+    "id": "C6",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Fatigue" }
+  },
+  {
+    "label": "Customers can't locate their data",
+    "id": "C7",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Customers can't locate their data" }
+  },
+  {
+    "label": "Platform seems less valuable",
+    "id": "C8",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Platform seems less valuable" }
+  },
+  {
+    "label": "Inaccurate searching",
+    "id": "C9",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Inaccurate searching" }
+  },
+  {
+    "label": "Loosing valuable search criteria",
+    "id": "C10",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Loosing valuable search criteria" }
+  },
+  {
+    "label": "Reduced monitoring ability",
+    "id": "C11",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Reduced monitoring ability" }
+  },
+  {
+    "label": "Difficult to read results",
+    "id": "C12",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Difficult to read results" }
+  }
+]

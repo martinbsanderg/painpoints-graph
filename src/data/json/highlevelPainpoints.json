@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Time consuming",
+    "id": "H1",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Time consuming" }
+  },
+  {
+    "label": "Cumbersome interface",
+    "id": "H2",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Cumbersome interface" }
+  },
+  {
+    "label": "Lacking functionality",
+    "id": "H3",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Lacking functionality" }
+  },
+  {
+    "label": "Poor result presentation",
+    "id": "H4",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Poor result presentation" }
+  }
+]

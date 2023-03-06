@@ -1,0 +1,152 @@
+[
+  {
+    "value": "1",
+    "id": "P1",
+    "label": "Finding property names",
+    "highlevel": ["H1", "H2", "H3"],
+    "consequence": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Finding property names" }
+  },
+  {
+    "value": "2",
+    "id": "P2",
+    "label": "Changing search criteria in basic",
+    "highlevel": ["H1", "H2", "H3"],
+    "consequence": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Changing search criteria in basic" }
+  },
+  {
+    "value": "1",
+    "id": "P3",
+    "label": "Spelling property names",
+    "highlevel": ["H1", "H2", "H3"],
+    "consequence": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Spelling property names" }
+  },
+  {
+    "value": "3",
+    "id": "P4",
+    "label": "No efficient way of storing searches",
+    "highlevel": ["H1", "H3"],
+    "consequence": ["C1", "C3", "C4", "C5", "C6", "C10", "C12", "C11"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "No efficient way of storing searches" }
+  },
+  {
+    "value": "2",
+    "id": "P5",
+    "label": "Can't share basic search",
+    "highlevel": ["H1", "H2", "H3"],
+    "consequence": ["C5", "C4"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Can't share basic search" }
+  },
+  {
+    "value": "1",
+    "id": "P6",
+    "label": "No user guidance in the interface",
+    "highlevel": ["H1", "H2", "H3"],
+    "consequence": ["C5", "C6", "C9", "C7", "C8", "C4", "C3", "C2", "C1"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "No user guidance in the interface" }
+  },
+  {
+    "value": "2",
+    "id": "P7",
+    "label": "Properties box: confusing options",
+    "highlevel": ["H1", "H2", "H3"],
+    "consequence": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Properties box: confusing options" }
+  },
+  {
+    "value": "2",
+    "id": "P8",
+    "label": "Properties box: confusing display",
+    "highlevel": ["H1", "H2", "H3"],
+    "consequence": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Properties box: confusing display" }
+  },
+  {
+    "value": "2",
+    "id": "P9",
+    "label": "Excluding properties in basic",
+    "highlevel": ["H1", "H2", "H3"],
+    "consequence": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Excluding properties in basic" }
+  },
+  {
+    "value": "2",
+    "id": "P10",
+    "label": "Properties box: unpredictable",
+    "highlevel": ["H1", "H2", "H3"],
+    "consequence": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Properties box: unpredictable" }
+  },
+  {
+    "value": "4",
+    "id": "P11",
+    "label": "Advanced search is diffiult to use",
+    "highlevel": ["H1", "H2"],
+    "consequence": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Advanced search is diffiult to use" }
+  },
+  {
+    "value": "2",
+    "id": "P12",
+    "label": "Basic search black box",
+    "highlevel": ["H1", "H2", "H3"],
+    "consequence": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Basic search black box" }
+  },
+  {
+    "value": "4",
+    "id": "P13",
+    "label": "Table white space",
+    "highlevel": "H4",
+    "consequence": "C12",
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Table white space" }
+  },
+  {
+    "value": "2",
+    "id": "P14",
+    "label": "Difficult to compare events",
+    "highlevel": ["H1", "H2", "H3", "H4"],
+    "consequence": ["C12", "C6", "C1", "C2", "C3", "C4", "C5", "C9"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Difficult to compare events" }
+  },
+  {
+    "value": "4",
+    "id": "P15",
+    "label": "Unpractical timepicker",
+    "highlevel": ["H4", "H2"],
+    "consequence": ["C5", "C1"],
+    "sourcePosition": "right",
+    "targetPosition": "left",
+    "data": { "label": "Unpractical timepicker" }
+  }
+]
