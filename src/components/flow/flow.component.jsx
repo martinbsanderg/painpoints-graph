@@ -29,6 +29,20 @@ const Flow = (props) => {
   const [edges, setEdges] = useState(initialEdges);
   const [anySelected, setAnySelected] = useState(false);
   const [relatedNodes, setRelatedNodes] = useState({});
+  const [width, setWidth] = useState(window.innerWidth);
+
+  //Checking for mobile screen
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowSizeChange);
+    return () => {
+      window.removeEventListener("resize", handleWindowSizeChange);
+    };
+  }, []);
+  const isMobile = width <= 768;
+  
 
   const onNodesChange = useCallback(
     (changes) =>
@@ -73,7 +87,7 @@ const Flow = (props) => {
           setRelatedNodes((prev) => {
             const newValue =
               edge.target === selectedNode ? edge.source : edge.target;
-            return {...prev, [newValue]:newValue};
+            return { ...prev, [newValue]: newValue };
           });
 
           return {
@@ -118,11 +132,11 @@ const Flow = (props) => {
     >
       <Background />
       <Controls />
-      <MiniMapStyled
+      {!isMobile && <MiniMapStyled
         zoomable
         pannable
         nodeColor={({ type }) => darkTheme[type].bgC}
-      />
+      />}
     </StyledFlow>
   );
 };
