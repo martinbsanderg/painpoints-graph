@@ -155,7 +155,6 @@
   { "id": "P14-C4", "source": "P14", "target": "C4" },
   { "id": "P14-C5", "source": "P14", "target": "C5" },
   { "id": "P14-C9", "source": "P14", "target": "C9" },
-  { "id": "H4-P15", "source": "H4", "target": "P15" },
   { "id": "H2-P15", "source": "H2", "target": "P15" },
   { "id": "P15-C5", "source": "P15", "target": "C5" },
   { "id": "P15-C1", "source": "P15", "target": "C1" }
